@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50d4f062-e1e5-4ce4-9c80-4ce4061138d8" name="Changes" comment="updating switch case visibility &amp; clickable and assertions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailNow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/SMSLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CreateSMSCampaigns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/OneTimeSMSCampaignSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one-time campiagn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/one-time campiagn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pom/OneTimeCampaignSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/OneTimeCampaignSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckOnlyOneTimeCampaignSteps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CheckOnlyOneTimeMailCampaignSteps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkAllTemplate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CheckAllMailTemplate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time campiagn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/One-timeMailCampiagn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/MailLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/CreateCampaigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/CreateMailCampaigns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/OneTimeCampaignSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/OneTimeMailCampaignSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pom/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckAllTemplates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckAllTemplates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckOnlyOneTimeCampaignSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckOnlyOneTimeCampaignSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/OneTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailLater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailLater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailLater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailNow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

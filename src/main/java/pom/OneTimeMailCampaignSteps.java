@@ -1,6 +1,6 @@
 package pom;
 
-import Utils.Locators;
+import Utils.MailLocators;
 import Utils.SeleniumActions;
 import Utils.SeleniumBase;
 import org.openqa.selenium.Keys;
@@ -12,11 +12,11 @@ import java.util.List;
 
 import static Utils.SeleniumActions.Waits.VISIBILITY_OF_ELEMENT;
 
-public class OneTimeCampaignSteps extends SeleniumBase {
+public class OneTimeMailCampaignSteps extends SeleniumBase {
     public void chooseCampaignTemplate() {
 
         SeleniumActions actions = new SeleniumActions();
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         actions.waitUntil(VISIBILITY_OF_ELEMENT, locators.hoverCampaignTemplate);
         // wait.until(ExpectedConditions.visibilityOfElementLocated(locators.hoverCampaignTemplate));
         actions.hoverOnElement(locators.hoverCampaignTemplate);
@@ -35,7 +35,7 @@ public class OneTimeCampaignSteps extends SeleniumBase {
 
     public void createCampaignSettings(String CampaignName, String SubjectLine, String SegmentSearch, String ProductSetSearch, List<String> products) {
         SeleniumActions actions = new SeleniumActions();
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         actions.clear(locators.campaignName);
         actions.sendKeys(locators.campaignName, CampaignName);
         actions.clear(locators.subjectLine);
@@ -73,7 +73,7 @@ public class OneTimeCampaignSteps extends SeleniumBase {
     public void customizeYourDesign() {
         Actions keys = new Actions(driver);
         SeleniumActions actions = new SeleniumActions();
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         keys.sendKeys(Keys.ESCAPE).perform();
         //seleniumActions.click(locators.closePopUp);
         actions.scroll(4000);
@@ -89,7 +89,7 @@ public class OneTimeCampaignSteps extends SeleniumBase {
 
         Actions actions = new Actions(driver);
         SeleniumActions seleniumActions = new SeleniumActions();
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         seleniumActions.clear(locators.testMail);
         seleniumActions.sendKeys(locators.testMail, testMail);
         seleniumActions.click(locators.testMailButton);
@@ -119,7 +119,7 @@ public class OneTimeCampaignSteps extends SeleniumBase {
 
 
         SeleniumActions seleniumActions = new SeleniumActions();
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         seleniumActions.clear(locators.testMail);
         seleniumActions.sendKeys(locators.testMail, testMail);
         seleniumActions.click(locators.testMailButton);

@@ -1,6 +1,6 @@
 package pom;
 
-import Utils.Locators;
+import Utils.MailLocators;
 import Utils.SeleniumActions;
 import Utils.SeleniumBase;
 import org.testng.Assert;
@@ -8,7 +8,7 @@ import org.testng.Assert;
 public class SignInPage extends SeleniumBase {
     public void loginPage(String Email, String Password) {
 
-        Locators locators = new Locators();
+        MailLocators locators = new MailLocators();
         SeleniumActions actions = new SeleniumActions();
         actions.clear(locators.LoginEmail);
         actions.sendKeys(locators.LoginEmail, Email);

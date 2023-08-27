@@ -2,7 +2,7 @@ package Utils;
 
 import org.openqa.selenium.By;
 
-public class Locators {
+public class MailLocators {
     //login locators
     public By LoginEmail = By.id("email");
     public By LoginPassword = By.id("password");
@@ -12,7 +12,7 @@ public class Locators {
     //home page locators
     public By emailCampaignsLookup = By.xpath("//span[text()='Email Campaigns']");
     public By createEmailCampaign = By.xpath("(//a[text()='Create Campaign'])[3]");
-    public By assertHomepage = By.className("campaign-item-title");
+    public By assertOneTimeMAilHomepage = By.className("campaign-item-title");
 
     //steps to go inside chosen template
     public By oneTimeNextButton = By.xpath("//button[text()='Next']");
