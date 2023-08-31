@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="One-Time mail campaign">
+
+    <test name="Test all template one time campaign">
+        <classes>
+            <class name="MailCampaign.CheckAllTemplates"/>
+        </classes>
+    </test>
+
+</suite>

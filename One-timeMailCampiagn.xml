@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="One-Time mail campaign">
+
+    <test name="Test Full Steps in One-Time EMail Campaign">
+        <classes>
+            <class name="MailCampaign.SendEmailLater"/>
+        </classes>
+    </test>
+
+</suite>

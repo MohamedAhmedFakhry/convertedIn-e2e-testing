@@ -1,25 +1,23 @@
 package pom;
 
-import Utils.Locators;
+import Utils.MailLocators;
 import Utils.SeleniumActions;
 import Utils.SeleniumBase;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 
 public class SignInPage extends SeleniumBase {
-    public void loginPage(String Email, String Password) throws InterruptedException {
-        Locators locators = new Locators();
+    public void loginPage(String Email, String Password) {
+
+        MailLocators locators = new MailLocators();
         SeleniumActions actions = new SeleniumActions();
         actions.clear(locators.LoginEmail);
         actions.sendKeys(locators.LoginEmail, Email);
         actions.clear(locators.LoginPassword);
         actions.sendKeys(locators.LoginPassword, Password);
         actions.click(locators.LoginButton);
-    }
+        String login = actions.getText(locators.assertLogin);
+        Assert.assertEquals(login, "Home", "login successfully");
+        Assert.assertNotNull(login, "assertion login is null");
 
-/* public String assertionLogin() throws InterruptedException {
-        Locators locators = new Locators();
-        SeleniumActions webActions = new SeleniumActions();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locators.assertLogin));
-        return webActions.getText(locators.assertLogin);
-    }*/
+    }
 }
