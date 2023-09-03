@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50d4f062-e1e5-4ce4-9c80-4ce4061138d8" name="Changes" comment="updating switch case visibility &amp; clickable and assertions">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/MailLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/MailLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/SeleniumBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/SeleniumBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckAllTemplates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckAllTemplates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckOnlyOneTimeCampaignSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/CheckOnlyOneTimeCampaignSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailLater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailLater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailCampaign/SendEmailNow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +36,26 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2Qs8QBLrWbrtpclEGy13vyK7Kuq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Heba/IdeaProjects/OneTimeMailCampaign/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Heba/IdeaProjects/last update&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "features/23Q3SP4/try-branch",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "C:/Users/Heba/IdeaProjects/OneTimeMailCampaign/src/test/java",
+    "last_opened_file_path": "C:/Users/Heba/IdeaProjects/last update"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pom" />
@@ -52,17 +64,7 @@
       <recent name="C:\Users\Heba\IdeaProjects\checkout" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SendEmailNow">
-    <configuration name="C:/Users/Heba/IdeaProjects/checkout/CheckOnlyOneTimeCampaignSteps.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OneTimeMailCampaign" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/CheckOnlyOneTimeCampaignSteps.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Mohanad/Downloads/convertedIn-e2e-testing/One-timeMailCampiagn.xml">
     <configuration name="C:/Users/Heba/IdeaProjects/checkout/one-time campiagn.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OneTimeMailCampaign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/one-time campiagn.xml" />
@@ -73,9 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Mohanad/OneDrive/Documents/GitHub/MailCampaign/checkAllTemplate.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Mohanad/Downloads/convertedIn-e2e-testing/CheckAllMailTemplate.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OneTimeMailCampaign" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/checkAllTemplate.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CheckAllMailTemplate.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Mohanad/Downloads/convertedIn-e2e-testing/One-timeMailCampiagn.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OneTimeMailCampaign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/One-timeMailCampiagn.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -119,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Mohanad/Downloads/convertedIn-e2e-testing/One-timeMailCampiagn.xml" />
+        <item itemvalue="TestNG.C:/Users/Mohanad/Downloads/convertedIn-e2e-testing/CheckAllMailTemplate.xml" />
         <item itemvalue="TestNG.SendEmailNow" />
         <item itemvalue="TestNG.SendEmailLater" />
         <item itemvalue="TestNG.C:/Users/Heba/IdeaProjects/checkout/one-time campiagn.xml" />
-        <item itemvalue="TestNG.C:/Users/Heba/IdeaProjects/checkout/CheckOnlyOneTimeCampaignSteps.xml" />
-        <item itemvalue="TestNG.C:/Users/Mohanad/OneDrive/Documents/GitHub/MailCampaign/checkAllTemplate.xml" />
       </list>
     </recent_temporary>
   </component>

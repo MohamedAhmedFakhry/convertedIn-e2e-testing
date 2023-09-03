@@ -16,13 +16,14 @@ public class CheckAllTemplates {
     @BeforeTest
     public void init() {
         SeleniumBase seleniumBase = new SeleniumBase();
+        seleniumBase.SeleniumConfig();
+        seleniumBase.Environment();
         //seleniumBase.seleniumConfig("https://app-stg.converted.in/login");
     }
 
     @Test
     public void openRedmos() {
         Homepage home = new Homepage();
-        signInPage.loginPage("mckenzie.lincoln@yahoo.com", "password");
         home.EmailCampaign();
     }
 
@@ -38,7 +39,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectBackToSchoolTemplate")
-    public void selectBackInStockTemplate()  {
+    public void selectBackInStockTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -49,7 +50,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectBackInStockTemplate")
-    public void selectDiscountOnSelectedItemsTemplate()  {
+    public void selectDiscountOnSelectedItemsTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -60,7 +61,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectDiscountOnSelectedItemsTemplate")
-    public void selectShoppingSeasonSummerSaleTemplate()  {
+    public void selectShoppingSeasonSummerSaleTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -71,7 +72,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectShoppingSeasonSummerSaleTemplate")
-    public void select24HrsFlashSaleTemplate()  {
+    public void select24HrsFlashSaleTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -82,7 +83,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "select24HrsFlashSaleTemplate")
-    public void select24HrsFlashSale2Template()  {
+    public void select24HrsFlashSale2Template() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -93,7 +94,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "select24HrsFlashSale2Template")
-    public void selectLaborDayTemplate()  {
+    public void selectLaborDayTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -104,7 +105,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectLaborDayTemplate")
-    public void selectEbookReleasedTemplate()  {
+    public void selectEbookReleasedTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -115,7 +116,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectEbookReleasedTemplate")
-    public void selectSummerSaleTemplate()  {
+    public void selectSummerSaleTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -126,7 +127,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectSummerSaleTemplate")
-    public void selectWomenDayTemplate()  {
+    public void selectWomenDayTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -137,7 +138,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectWomenDayTemplate")
-    public void selectHelloBlackFridayTemplate()  {
+    public void selectHelloBlackFridayTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
@@ -148,7 +149,7 @@ public class CheckAllTemplates {
     }
 
     @Test(dependsOnMethods = "selectHelloBlackFridayTemplate")
-    public void selectDiscountEmailTemplate()  {
+    public void selectDiscountEmailTemplate() {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         CreateMailCampaigns oneTime = new CreateMailCampaigns();

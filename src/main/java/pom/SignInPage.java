@@ -10,11 +10,11 @@ public class SignInPage extends SeleniumBase {
 
         MailLocators locators = new MailLocators();
         SeleniumActions actions = new SeleniumActions();
-        actions.clear(locators.LoginEmail);
-        actions.sendKeys(locators.LoginEmail, Email);
-        actions.clear(locators.LoginPassword);
-        actions.sendKeys(locators.LoginPassword, Password);
-        actions.click(locators.LoginButton);
+        actions.clear(locators.loginEmail);
+        actions.sendKeys(locators.loginEmail, Email);
+        actions.clear(locators.loginPassword);
+        actions.sendKeys(locators.loginPassword, Password);
+        actions.click(locators.loginButton);
         String login = actions.getText(locators.assertLogin);
         Assert.assertEquals(login, "Home", "login successfully");
         Assert.assertNotNull(login, "assertion login is null");
