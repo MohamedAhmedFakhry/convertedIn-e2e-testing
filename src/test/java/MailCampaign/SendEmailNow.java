@@ -20,7 +20,7 @@ public class SendEmailNow {
     @BeforeTest
     public void init() {
         SeleniumBase seleniumBase = new SeleniumBase();
-        seleniumBase.seleniumConfig();
+        seleniumBase.SeleniumConfig();
         seleniumBase.Environment();
     }
 
@@ -28,7 +28,6 @@ public class SendEmailNow {
     @Test
     public void openRedmos() {
         Homepage home = new Homepage();
-        signInPage.loginPage("mckenzie.lincoln@yahoo.com", "password");
         home.EmailCampaign();
     }
 
@@ -73,7 +72,7 @@ public class SendEmailNow {
         Assert.assertTrue(actions.getText(locators.productsCheck).contains("Sunglasses"));
         steps.reviewAndSendNow("m.abolela@converted.in");
         actions.click(locators.publish);
-        Assert.assertEquals(actions.getText(locators.assertPublishNow),"Your campaign was successfully created & sent.");
+        Assert.assertEquals(actions.getText(locators.assertPublishNow), "Your campaign was successfully created & sent.");
         actions.click(locators.goToMyCampaign);
     }
 }

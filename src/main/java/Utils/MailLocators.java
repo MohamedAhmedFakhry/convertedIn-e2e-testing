@@ -4,15 +4,15 @@ import org.openqa.selenium.By;
 
 public class MailLocators {
     //login locators
-    public By LoginEmail = By.id("email");
-    public By LoginPassword = By.id("password");
-    public By LoginButton = By.xpath("//button[@type='submit']");
+    public By loginEmail = By.id("email");
+    public By loginPassword = By.id("password");
+    public By loginButton = By.xpath("//button[@type='submit']");
     public By assertLogin = By.xpath("//h1[@class='title']");
 
     //home page locators
     public By emailCampaignsLookup = By.xpath("//span[text()='Email Campaigns']");
     public By createEmailCampaign = By.xpath("(//a[text()='Create Campaign'])[3]");
-    public By assertOneTimeMAilHomepage = By.className("campaign-item-title");
+    public By assertOneTimeMailPage = By.className("campaign-item-title");
 
     //steps to go inside chosen template
     public By oneTimeNextButton = By.xpath("//button[text()='Next']");

@@ -21,19 +21,18 @@ public class SendEmailLater {
     @BeforeTest
     public void init() {
         SeleniumBase seleniumBase = new SeleniumBase();
-        seleniumBase.seleniumConfig();
+        seleniumBase.SeleniumConfig();
         seleniumBase.Environment();
     }
 
 
-    @Test
+   @Test
     public void openRedmos() {
         Homepage home = new Homepage();
-        signInPage.loginPage("mckenzie.lincoln@yahoo.com", "password");
         home.EmailCampaign();
     }
 
-    @Test(dependsOnMethods = "openRedmos")
+    @Test (dependsOnMethods = "openRedmos")
     public void selectOneTimeCampaign() {
 
         MailLocators locators = new MailLocators();

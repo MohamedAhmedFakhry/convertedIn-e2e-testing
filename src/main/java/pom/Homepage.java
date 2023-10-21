@@ -12,7 +12,7 @@ public class Homepage {
         MailLocators locators = new MailLocators();
         actions.click(locators.emailCampaignsLookup);
         actions.click(locators.createEmailCampaign);
-        String homePage = actions.getText(locators.assertOneTimeMAilHomepage);
+        String homePage = actions.getText(locators.assertOneTimeMailPage);
         Assert.assertEquals(homePage, "One Time Campaign", "home page assertion is done");
         Assert.assertNotNull(homePage, "assertion home page is null");
     }
