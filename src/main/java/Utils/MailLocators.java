@@ -16,10 +16,10 @@ public class MailLocators {
 
     //steps to go inside chosen template
     public By oneTimeNextButton = By.xpath("//button[text()='Next']");
-    public By templateGroups = By.xpath("//div[@data-group-id=25]");
-    public By hoverOnBackToSchool = By.xpath("//div[@data-template-type='83']");
-    public By selectBackToSchool = By.xpath("//*[@data-template-type='83']//button[text()='Select']");
-    public By assertBackToSchool = By.xpath("//*[text()='Shopping Season Back To School']");
+    public By templateGroups = By.xpath("//div[@data-group-id=24]");
+    public By hoverOnBlackFriday = By.xpath("//div[@data-template-type='188']");
+    public By selectBlackFriday = By.xpath("//*[@data-template-type='188']//button[text()='Select']");
+    public By assertBlackFriday = By.xpath("//*[text()='Hello Black Friday']");
 
 
     //locators chooseCampaignTemplate
@@ -123,9 +123,9 @@ public class MailLocators {
     public By selectWomenDay = By.xpath("//*[@data-template-type='186']//button[text()='Select']");
     public By assertWomenDay = By.xpath("//*[contains(text(),'Women')]");
 
-    public By hoverOnBlackFriday = By.xpath("//div[@data-template-type='188']");
-    public By selectBlackFriday = By.xpath("//*[@data-template-type='188']//button[text()='Select']");
-    public By assertBlackFriday = By.xpath("//*[text()='Hello Black Friday']");
+    //public By hoverOnBlackFriday = By.xpath("//div[@data-template-type='188']");
+    //public By selectBlackFriday = By.xpath("//*[@data-template-type='188']//button[text()='Select']");
+    //public By assertBlackFriday = By.xpath("//*[text()='Hello Black Friday']");
 
     public By hoverOnDiscountEmail = By.xpath("//div[@data-template-type='191']");
     public By selectDiscountEmail = By.xpath("//*[@data-template-type='191']//button[text()='Select']");

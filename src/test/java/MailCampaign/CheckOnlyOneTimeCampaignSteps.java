@@ -16,8 +16,6 @@ import java.util.List;
 import static Utils.SeleniumBase.driver;
 
 public class CheckOnlyOneTimeCampaignSteps {
-    SignInPage signInPage = new SignInPage();
-
     @BeforeTest
     public void init() {
 
@@ -31,7 +29,7 @@ public class CheckOnlyOneTimeCampaignSteps {
     public void openRedmos() {
         Homepage home = new Homepage();
         home.EmailCampaign();
-        driver.navigate().to("https://app-stg.converted.in/dashboard/campaigns/email/one-time-campaign/templates/83/list");
+        driver.navigate().to("https://app-stg.converted.in/dashboard/campaigns/email/one-time-campaign/templates/188/list");
     }
 
     @Test(dependsOnMethods = "openRedmos")
@@ -39,7 +37,6 @@ public class CheckOnlyOneTimeCampaignSteps {
         SeleniumActions actions = new SeleniumActions();
         MailLocators locators = new MailLocators();
         OneTimeMailCampaignSteps steps = new OneTimeMailCampaignSteps();
-        signInPage.loginPage("mckenzie.lincoln@yahoo.com", "password");
         steps.chooseCampaignTemplate();
         Assert.assertEquals(actions.getText(locators.assertCampaignDetails), "Default Template Preview");
     }

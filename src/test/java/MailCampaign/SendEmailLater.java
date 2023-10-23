@@ -15,9 +15,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SendEmailLater {
-
-    SignInPage signInPage = new SignInPage();
-
     @BeforeTest
     public void init() {
         SeleniumBase seleniumBase = new SeleniumBase();
@@ -39,7 +36,7 @@ public class SendEmailLater {
         CreateMailCampaigns oneTime = new CreateMailCampaigns();
 
         oneTime.selectCampaignType();
-        oneTime.oneTimeCampaign(locators.hoverOnBackToSchool, locators.selectBackToSchool);
+        oneTime.oneTimeCampaign(locators.hoverOnBlackFriday, locators.selectBlackFriday);
     }
 
     @Test(dependsOnMethods = "selectOneTimeCampaign")
